@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rzf7pE" name="IdealSynthesizer" projectType="audioplug" jucerVersion="5.4.7"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn">
+  <MAINGROUP id="hDxXzB" name="IdealSynthesizer">
+    <GROUP id="{803C6AC4-C090-6527-0B59-D58200E1E9C0}" name="Source">
+      <GROUP id="{FE51DBE1-D9CF-377E-EFF3-3A6B04E9898F}" name="Maximilian">
+        <GROUP id="{8DB4B868-3B88-DB90-BC64-C0B36E4583BC}" name="libs">
+          <FILE id="Kdrhrl" name="fft.cpp" compile="1" resource="0" file="../Maximilian/libs/fft.cpp"/>
+          <FILE id="DpdCpj" name="fft.h" compile="0" resource="0" file="../Maximilian/libs/fft.h"/>
+          <FILE id="riDnyb" name="maxiAtoms.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiAtoms.cpp"/>
+          <FILE id="DSsXmA" name="maxiAtoms.h" compile="0" resource="0" file="../Maximilian/libs/maxiAtoms.h"/>
+          <FILE id="fCRPhx" name="maxiBark.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiBark.cpp"/>
+          <FILE id="kvhyok" name="maxiBark.h" compile="0" resource="0" file="../Maximilian/libs/maxiBark.h"/>
+          <FILE id="e5XgeW" name="maxiFFT.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiFFT.cpp"/>
+          <FILE id="MgMPhE" name="maxiFFT.h" compile="0" resource="0" file="../Maximilian/libs/maxiFFT.h"/>
+          <FILE id="fXO7Vj" name="maxiGrains.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiGrains.cpp"/>
+          <FILE id="Bs2i4g" name="maxiGrains.h" compile="0" resource="0" file="../Maximilian/libs/maxiGrains.h"/>
+          <FILE id="DsYzDC" name="maxim.h" compile="0" resource="0" file="../Maximilian/libs/maxim.h"/>
+          <FILE id="NRH86x" name="maxiMFCC.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiMFCC.cpp"/>
+          <FILE id="mshh4v" name="maxiMFCC.h" compile="0" resource="0" file="../Maximilian/libs/maxiMFCC.h"/>
+          <FILE id="de6hdi" name="maxiReverb.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiReverb.cpp"/>
+          <FILE id="PoAodd" name="maxiReverb.h" compile="0" resource="0" file="../Maximilian/libs/maxiReverb.h"/>
+          <FILE id="wy981E" name="maxiSynths.cpp" compile="1" resource="0" file="../Maximilian/libs/maxiSynths.cpp"/>
+          <FILE id="vxda9U" name="maxiSynths.h" compile="0" resource="0" file="../Maximilian/libs/maxiSynths.h"/>
+          <FILE id="QDlTfy" name="sineTable.h" compile="0" resource="0" file="../Maximilian/libs/sineTable.h"/>
+          <FILE id="jzzYlX" name="stb_vorbis.c" compile="1" resource="0" file="../Maximilian/libs/stb_vorbis.c"/>
+          <FILE id="bXzxgH" name="stb_vorbis.h" compile="0" resource="0" file="../Maximilian/libs/stb_vorbis.h"/>
+        </GROUP>
+        <FILE id="GkDiwd" name="main.cpp" compile="1" resource="0" file="../Maximilian/main.cpp"/>
+        <FILE id="xBlWt7" name="maximilian.cpp" compile="1" resource="0" file="../Maximilian/maximilian.cpp"/>
+        <FILE id="arg6G2" name="maximilian.h" compile="0" resource="0" file="../Maximilian/maximilian.h"/>
+        <FILE id="nYyd4y" name="README.md" compile="0" resource="1" file="../Maximilian/README.md"/>
+      </GROUP>
+      <FILE id="byqrDZ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="B96I2A" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="JV9vzW" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="xwIpWy" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="SslFaz" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="FcM4XB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="I5ZaYD" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="zqXeZp" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="a0r5EE" name="Oscillator2.cpp" compile="1" resource="0" file="Source/Oscillator2.cpp"/>
+      <FILE id="fBuFdI" name="Oscillator2.h" compile="0" resource="0" file="Source/Oscillator2.h"/>
+      <FILE id="GBLyu5" name="Envelope1.cpp" compile="1" resource="0" file="Source/Envelope1.cpp"/>
+      <FILE id="jVDW1r" name="Envelope1.h" compile="0" resource="0" file="Source/Envelope1.h"/>
+      <FILE id="PVtlUC" name="AmpEnvelope.cpp" compile="1" resource="0" file="Source/AmpEnvelope.cpp"/>
+      <FILE id="b1jvFx" name="AmpEnvelope.h" compile="0" resource="0" file="Source/AmpEnvelope.h"/>
+      <FILE id="bHCyMJ" name="Filter1.cpp" compile="1" resource="0" file="Source/Filter1.cpp"/>
+      <FILE id="TQDNUu" name="Filter1.h" compile="0" resource="0" file="Source/Filter1.h"/>
+      <FILE id="shzbXS" name="MasterVolume.cpp" compile="1" resource="0"
+            file="Source/MasterVolume.cpp"/>
+      <FILE id="MrDpCz" name="MasterVolume.h" compile="0" resource="0" file="Source/MasterVolume.h"/>
+      <FILE id="bMJBOK" name="Delay.cpp" compile="1" resource="0" file="Source/Delay.cpp"/>
+      <FILE id="QuWch8" name="Delay.h" compile="0" resource="0" file="Source/Delay.h"/>
+      <FILE id="H7H4FM" name="Lfo1.cpp" compile="1" resource="0" file="Source/Lfo1.cpp"/>
+      <FILE id="VPfmEF" name="Lfo1.h" compile="0" resource="0" file="Source/Lfo1.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="C:\Users\Benjamin\Maximilian"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
