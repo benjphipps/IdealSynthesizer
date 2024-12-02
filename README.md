@@ -19,9 +19,3 @@ https://github.com/micknoise/Maximilian
 
 JUCE:
 https://github.com/juce-framework/JUCE
-
-## How To Contribute:
-
-Ideal Synthesizer is open for contribution, and I shall try my best to answer requests in a timely manner. Contact me for any queries:
-
-https://www.linkedin.com/in/benjaminphipps1/
